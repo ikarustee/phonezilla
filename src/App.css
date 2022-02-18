@@ -125,6 +125,7 @@ header.hero img {
   object-fit: cover;
 }
 h1 {
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: var(--gradient-bg);
   font-size: 3rem;

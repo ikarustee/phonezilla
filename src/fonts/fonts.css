@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Genera-AltLight";
   src: url('webFonts/GeneraAltLight/font.woff2') format('woff2'),
   url('webFonts/GeneraAltLight/font.woff') format('woff');
@@ -49,7 +49,7 @@
   font-weight: 200;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 /**
  * @license
@@ -82,15 +82,53 @@
  * © 2022 MyFonts Inc
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@300;800&family=Fjalla+One&display=swap');
+@font-face {
+  font-family: 'Inter';
+  src: url('./webFonts/Inter/Inter-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./webFonts/Inter/Inter-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./webFonts/Inter/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./webFonts/Inter/Inter-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 body {
-  font-family: 'Inter Light BETA', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size:16px;
 }
-h1, h2, h3, 
-h1 a, h2 a, h3 a,
-.ant-card-body span.title {
+h1, h2, h3, h4,
+h1 a, h2 a, h3 a, h4 a
+.ant-card-body span.title,
+span.card__body.title {
+  color:#0099FF;
   font-family: 'Inter';
+  font-weight: bold;
+}
+span.card__body.teaser {
+  font-weight: bold;
 }
 
 

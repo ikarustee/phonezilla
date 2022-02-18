@@ -31,9 +31,10 @@ const Navbar = () => {
     <nav>
       <div className="nav">
         <Link to="/"><img src={logo} alt="" width="120"/></Link>
-        <Menu theme="default" mode="horizontal" defaultSelectedKeys={location.pathname} breakpoint="md" trigger={null}>
+        <Menu theme="default" mode="horizontal" defaultSelectedKeys={location.pathname} trigger={null}>
             <Menu.Item key="/" onClick={handleClick} className="nav__home"><NavLink to="/">Home</NavLink></Menu.Item>
             <Menu.Item key="/posts/"><NavLink to="/posts/">Posts</NavLink></Menu.Item>
+            <Menu.Item key="/contact/"><NavLink to="/contact/">Contact</NavLink></Menu.Item>
         </Menu>
       </div>
     </nav>
