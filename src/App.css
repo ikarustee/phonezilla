@@ -125,7 +125,7 @@ header.hero img {
   object-fit: cover;
 }
 h1 {
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   background-image: var(--gradient-bg);
   font-size: 3rem;
@@ -137,7 +137,7 @@ h1.divider {
   margin: 1.5rem 0 3rem;
   text-align: center;
   color: transparent;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   background-image: var(--gradient-bg);
 }
@@ -317,7 +317,7 @@ a.imagecredits {
   margin: 2rem 0 4rem;
   text-align: center;
   color: transparent;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   background-image: var(--gradient-bg);
 }
