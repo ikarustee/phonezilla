@@ -4,9 +4,6 @@
     margin:0 auto;
     
 }  
-.singlepost{
-
-}
 .singlepost_img{
     display: block;
     margin:0 auto;
@@ -15,6 +12,16 @@
     width: 900px;
     font-size: 14px;
 }
-.moreposts h2{
+.moreposts h4{
+    color:black;
     font: normal 2.5em;
 }
+
+.singlepost_body, .moreposts {
+    width: 800px;
+    margin: 0 auto 2rem;
+}
+.moreposts {
+    margin: 0 auto 4rem;
+}
+

@@ -10,6 +10,7 @@ const Posts = () => {
     
   return (
     <main>
+    <h1>Posts</h1>
       <Row gutter={[16, 16]}>
         {post.map((p, index) => {
           return (

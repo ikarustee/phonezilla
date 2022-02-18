@@ -15,7 +15,7 @@ const Home = () => {
       <>
       <Hero />
       <main>
-      <h1>Welcome to phoneZILLA</h1>
+      <h1 className="divider">Welcome to phoneZILLA</h1>
         <Row gutter={[16, 16]}>
           {post.map((p, index) => {
             return (

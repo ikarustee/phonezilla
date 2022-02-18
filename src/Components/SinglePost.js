@@ -58,7 +58,7 @@ const SinglePost = () => {
         </div>
 
         <div className="moreposts">
-          <h2>Posts you may like ...</h2>
+          <h4>Posts you may like ...</h4>
           {/*  {console.log("I am this related POSTS::" + relPost.length)} */}
           {/* for more posts */}
           {relPost.map((p, i) => (
@@ -68,7 +68,7 @@ const SinglePost = () => {
           ))}
         </div>
 
-        <Link to="/posts/">back to posts</Link>
+        <Link to="/posts/"><button className="backtoposts">back to posts</button></Link>
       </div>
     );
   }
